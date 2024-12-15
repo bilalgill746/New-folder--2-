@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    font-family: Host Grotesk;
+}
+#box{
+    max-width: 100%;
+    max-height: 100vh;
+}
+#box1{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25)  ;
+border-radius: 7px;
+    max-width: 700px;
+    margin: 2rem auto auto auto;
+    padding: 50px 0px 50px 0px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+flex-shrink: 1;
+}
+#box2{   
+    padding-left: 0%;
+}
+#box3{
+   align-self: center;
+}
+
+#one {
+    color: #4285f4;
+}
+
+#two {
+    color: #EA4335;
+}
+
+#three {
+    color: #FFC107;
+}
+
+#four {
+    color: #4285f4;
+}
+
+#five {
+    color: #34A853;
+}
+
+#six {
+    color: #EA4335;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#name {
+display: flex;
+}
+#lastname{
+    margin-left: 20px;
+}
+#username{
+    display: flex;
+}
+#gmail{
+    align-self: flex-end;
+    border:2px solid lightgray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: lightgray;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+input:focus{
+    border: 2px solid lightgray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+a {
+    color: #4285f4;
+    text-decoration: none;
+}
+button {
+    color: white;
+    background-color: #4285f4;
+    font-size: small;
+    border: transparent;
+    border-radius: 5px;
+    padding: 7px 0px 7px 0px;
+    width: 80px;
+    margin-left: 210px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+#name {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#Username {
+    margin-bottom: 20px;
+    display: flex;
+
+}
+
+#password {
+    display: flex;
+    margin-top: 10px;
+}
+#lastpassword{
+    margin-left: 20px;
+}
+pre {
+    font-weight: lighter;
+}
+i{
+    cursor: pointer;
+}
